@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 .infos-bar{
     padding: 16px 24px;
-    background-color: white;
+    background-color: $corText;
     display:flex ;
     justify-content: space-between;
 
@@ -10,10 +12,10 @@
         gap: 40px;
         &__item {
             font-size: 14px;
-            color: black;
+            color: $corTextSecund;
 
             b{
-                color: black;
+                color: $corTextSecund;
                 font-size: 18px;
                 display: block;
             }
